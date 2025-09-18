@@ -26,11 +26,6 @@
             bindings = <&kp LC(PG_DN)>;
             key-positions = <22 23>;
         };
-
-        mac_mission_control {
-            bindings = <&kp F4>;
-            key-positions = <12 13>;
-        };
     };
 
     keymap {
@@ -78,6 +73,15 @@
 &trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp DOT  &kp N4   &kp N5  &kp N6  &kp KP_PLUS   &kp KP_EQUAL
 &trans     &bt BT_CLR    &trans        &trans        &kp C_VOL_DN  &kp C_VOL_UP  &kp N0   &kp N1   &kp N2  &kp N3  &kp KP_MINUS  &kp KP_DIVIDE
                                        &trans        &trans        &trans        &trans   &kp DOT  &kp N0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
